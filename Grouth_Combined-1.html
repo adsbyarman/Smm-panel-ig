@@ -1,0 +1,2492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouth Followers • #1 Instagram Growth</title>
+    <meta name="description" content="Get real Instagram followers instantly. No password required. 100% safe & secure.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js"></script>
+<style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #6C3CE1;
+            --primary-dark: #5B2FC9;
+            --primary-light: #8B5CF6;
+            --secondary: #10B981;
+            --bg: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --text: #0F172A;
+            --text-secondary: #64748B;
+            --border: #E2E8F0;
+            --shadow: 0 20px 60px rgba(108, 60, 225, 0.12);
+            --radius: 24px;
+            --transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        [data-theme="dark"] #page-home  {
+            --bg: #0F172A;
+            --card-bg: #1E293B;
+            --text: #F1F5F9;
+            --text-secondary: #94A3B8;
+            --border: #334155;
+            --shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+        }
+        
+        #page-home {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            transition: background var(--transition), color var(--transition);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        #page-home .container {
+            max-width: 480px;
+            margin: 0 auto;
+        }
+        
+        #page-home .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0 16px;
+        }
+        
+        #page-home .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 24px;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        #page-home .logo i {
+            -webkit-text-fill-color: var(--primary);
+            font-size: 28px;
+        }
+        
+        #page-home .theme-toggle {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            border: 2px solid var(--border);
+            background: var(--card-bg);
+            color: var(--text);
+            font-size: 20px;
+            cursor: pointer;
+            transition: all var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #page-home .theme-toggle:hover {
+            transform: rotate(30deg) scale(1.05);
+            border-color: var(--primary);
+        }
+        
+        #page-home /* ===== HERO BANNER ===== */
+        .hero-banner {
+            width: 100%;
+            padding: 28px 20px;
+            border-radius: var(--radius);
+            background: linear-gradient(135deg, #6C3CE1, #4F46E5, #7C3AED);
+            box-shadow: 0 16px 48px rgba(108, 60, 225, 0.35);
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        #page-home .hero-banner::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.08) 50%, transparent 70%);
+            animation: shimmer 4s infinite;
+        }
+        
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        
+        #page-home .hero-banner .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(4px);
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        #page-home .hero-banner h1 {
+            font-size: 28px;
+            font-weight: 900;
+            color: #fff;
+            line-height: 1.2;
+            position: relative;
+            z-index: 1;
+        }
+        
+        #page-home .hero-banner h1 span {
+            color: #FCD34D;
+        }
+        
+        #page-home .hero-banner p {
+            color: rgba(255,255,255,0.85);
+            font-size: 14px;
+            margin-top: 8px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        #page-home .hero-banner .stats-row {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 16px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        #page-home .hero-banner .stats-row div {
+            text-align: center;
+        }
+        
+        #page-home .hero-banner .stats-row .num {
+            font-size: 22px;
+            font-weight: 800;
+            color: #FCD34D;
+            display: block;
+        }
+        
+        #page-home .hero-banner .stats-row .lbl {
+            font-size: 11px;
+            color: rgba(255,255,255,0.7);
+            font-weight: 500;
+        }
+        
+        #page-home /* ===== INPUT SECTION (UPAR) ===== */
+        .input-section {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 24px;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow);
+            margin-bottom: 20px;
+        }
+        
+        #page-home .input-section h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        
+        #page-home .input-section .sub {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+        
+        #page-home .input-group {
+            display: flex;
+            gap: 10px;
+        }
+        
+        #page-home .input-group input {
+            flex: 1;
+            padding: 14px 18px;
+            border-radius: 14px;
+            border: 2px solid var(--border);
+            background: var(--bg);
+            color: var(--text);
+            font-size: 14px;
+            transition: all var(--transition);
+            outline: none;
+        }
+        
+        #page-home .input-group input:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(108, 60, 225, 0.1);
+        }
+        
+        #page-home .input-group .btn-go {
+            padding: 14px 24px;
+            border: none;
+            border-radius: 14px;
+            font-weight: 700;
+            font-size: 14px;
+            cursor: pointer;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: #fff;
+            transition: all var(--transition);
+            white-space: nowrap;
+        }
+        
+        #page-home .input-group .btn-go:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 24px rgba(108, 60, 225, 0.3);
+        }
+        
+        #page-home .input-group .btn-go:active {
+            transform: scale(0.97);
+        }
+        
+        #page-home .input-section .features-row {
+            display: flex;
+            gap: 12px;
+            margin-top: 14px;
+            flex-wrap: wrap;
+        }
+        
+        #page-home .input-section .features-row span {
+            font-size: 12px;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        #page-home .input-section .features-row span i {
+            color: var(--secondary);
+        }
+        
+        #page-home /* ===== ADS SECTION (NEECHE) ===== */
+        .ads-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        
+        #page-home .ad-card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 16px;
+            border: 1px solid var(--border);
+            transition: all var(--transition);
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        #page-home .ad-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow);
+            border-color: var(--primary);
+        }
+        
+        #page-home .ad-card .icon {
+            font-size: 28px;
+            margin-bottom: 8px;
+            display: block;
+        }
+        
+        #page-home .ad-card h4 {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text);
+        }
+        
+        #page-home .ad-card p {
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+        
+        #page-home .ad-card .tag {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 2px 12px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        
+        #page-home .ad-card .tag.green { background: #D1FAE5; color: #065F46; }
+        #page-home .ad-card .tag.blue { background: #DBEAFE; color: #1E40AF; }
+        #page-home .ad-card .tag.purple { background: #EDE9FE; color: #5B21B6; }
+        #page-home .ad-card .tag.orange { background: #FEF3C7; color: #92400E; }
+        
+        [data-theme="dark"] #page-home .ad-card .tag.green { background: #065F46; color: #D1FAE5; }
+        [data-theme="dark"] #page-home .ad-card .tag.blue { background: #1E3A5F; color: #93C5FD; }
+        [data-theme="dark"] #page-home .ad-card .tag.purple { background: #312E81; color: #A78BFA; }
+        [data-theme="dark"] #page-home .ad-card .tag.orange { background: #78350F; color: #FCD34D; }
+        
+        #page-home /* ===== FEATURED AD ===== */
+        .featured-ad {
+            background: linear-gradient(135deg, #1E293B, #0F172A);
+            border-radius: var(--radius);
+            padding: 20px 24px;
+            margin-bottom: 20px;
+            border: 1px solid #334155;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            transition: all var(--transition);
+        }
+        
+        #page-home [data-theme="light"] .featured-ad {
+            background: linear-gradient(135deg, #F1F5F9, #E2E8F0);
+            border-color: #CBD5E1;
+        }
+        
+        #page-home .featured-ad:hover {
+            transform: scale(1.01);
+        }
+        
+        #page-home .featured-ad .content h4 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #F1F5F9;
+        }
+        
+        #page-home [data-theme="light"] .featured-ad .content h4 {
+            color: #0F172A;
+        }
+        
+        #page-home .featured-ad .content p {
+            font-size: 13px;
+            color: #94A3B8;
+        }
+        
+        #page-home [data-theme="light"] .featured-ad .content p {
+            color: #64748B;
+        }
+        
+        #page-home .featured-ad .btn-ad {
+            padding: 10px 20px;
+            border-radius: 12px;
+            border: none;
+            font-weight: 700;
+            font-size: 13px;
+            cursor: pointer;
+            background: linear-gradient(135deg, #6C3CE1, #4F46E5);
+            color: #fff;
+            transition: all var(--transition);
+            white-space: nowrap;
+        }
+        
+        #page-home .featured-ad .btn-ad:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 24px rgba(108, 60, 225, 0.3);
+        }
+        
+        #page-home /* ===== TRUST ===== */
+        .trust {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        #page-home .trust div {
+            background: var(--card-bg);
+            padding: 14px;
+            border-radius: 14px;
+            font-size: 13px;
+            font-weight: 500;
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all var(--transition);
+        }
+        
+        #page-home .trust div:hover {
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+        
+        #page-home .trust div i {
+            font-size: 18px;
+            color: var(--secondary);
+        }
+        
+        #page-home /* ===== REVIEWS ===== */
+        .review {
+            display: flex;
+            gap: 14px;
+            background: var(--card-bg);
+            padding: 16px;
+            border-radius: 18px;
+            border: 1px solid var(--border);
+            margin-top: 14px;
+            transition: all var(--transition);
+        }
+        
+        #page-home .review:hover {
+            border-color: var(--primary);
+        }
+        
+        #page-home .avatar {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+        
+        #page-home .review h4 {
+            font-size: 14px;
+            margin-bottom: 2px;
+        }
+        
+        #page-home .review h4 span {
+            font-weight: 400;
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+        
+        #page-home .review .stars {
+            color: #F59E0B;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+        
+        #page-home .review p {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-top: 4px;
+            line-height: 1.5;
+        }
+        
+        #page-home /* ===== FOOTER ===== */
+        .footer {
+            margin-top: 30px;
+            padding: 20px 0;
+            font-size: 12px;
+            text-align: center;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border);
+        }
+        
+        #page-home .footer a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        #page-home /* ===== FLOATING SUPPORT ===== */
+        .float-support {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: #fff;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 8px 32px rgba(108, 60, 225, 0.4);
+            transition: all var(--transition);
+            z-index: 100;
+        }
+        
+        #page-home .float-support:hover {
+            transform: scale(1.1) rotate(-10deg);
+            box-shadow: 0 12px 48px rgba(108, 60, 225, 0.5);
+        }
+        
+        #page-home /* ===== POPUP ===== */
+        .popup {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(8px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            padding: 20px;
+        }
+        
+        #page-home .popup.active {
+            display: flex;
+        }
+        
+        #page-home .popup-box {
+            background: var(--card-bg);
+            width: 100%;
+            max-width: 400px;
+            border-radius: 24px;
+            padding: 28px;
+            animation: popIn 0.3s ease;
+        }
+        
+        @keyframes popIn {
+            from { transform: scale(0.9) translateY(20px); opacity: 0; }
+            to { transform: scale(1) translateY(0); opacity: 1; }
+        }
+        
+        #page-home .popup-box h3 {
+            font-size: 20px;
+            margin-bottom: 6px;
+        }
+        
+        #page-home .popup-box .sub {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+        
+        #page-home .popup-box input, #page-home .popup-box textarea {
+            width: 100%;
+            padding: 14px;
+            border-radius: 12px;
+            border: 2px solid var(--border);
+            background: var(--bg);
+            color: var(--text);
+            font-size: 14px;
+            margin-bottom: 12px;
+            transition: all var(--transition);
+            outline: none;
+        }
+        
+        #page-home .popup-box input:focus, #page-home .popup-box textarea:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(108, 60, 225, 0.1);
+        }
+        
+        #page-home .popup-box .btn-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        
+        #page-home .popup-box .btn-primary {
+            padding: 14px;
+            border: none;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: #fff;
+            transition: all var(--transition);
+        }
+        
+        #page-home .popup-box .btn-primary:hover {
+            transform: scale(1.02);
+        }
+        
+        #page-home .popup-box .btn-secondary {
+            padding: 14px;
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            background: transparent;
+            color: var(--text);
+            transition: all var(--transition);
+        }
+        
+        #page-home .popup-box .btn-secondary:hover {
+            background: var(--border);
+        }
+        
+        @media (max-width: 480px) {
+            #page-home { padding: 12px; }
+            #page-home .hero-banner { padding: 20px 16px; }
+            #page-home .hero-banner h1 { font-size: 22px; }
+            #page-home .hero-banner .stats-row { gap: 16px; }
+            #page-home .hero-banner .stats-row .num { font-size: 18px; }
+            #page-home .input-group { flex-direction: column; }
+            #page-home .input-group .btn-go { width: 100%; }
+            #page-home .ads-section { grid-template-columns: 1fr 1fr; gap: 8px; }
+            #page-home .ad-card { padding: 12px; }
+            #page-home .ad-card .icon { font-size: 22px; }
+            #page-home .featured-ad { flex-direction: column; text-align: center; }
+            #page-home .trust { grid-template-columns: 1fr 1fr; }
+            #page-home .float-support { width: 48px; height: 48px; font-size: 20px; bottom: 16px; right: 16px; }
+        }
+    
+
+        /* ===== SHARED: FLOATING SUPPORT + POPUP (used by every page) ===== */
+        .float-support {
+            position: fixed; bottom: 24px; right: 24px; width: 56px; height: 56px;
+            border-radius: 50%; background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: #fff; border: none; font-size: 24px; cursor: pointer;
+            box-shadow: 0 8px 32px rgba(108, 60, 225, 0.4); transition: all var(--transition); z-index: 100;
+        }
+        .float-support:hover { transform: scale(1.1) rotate(-10deg); box-shadow: 0 12px 48px rgba(108, 60, 225, 0.5); }
+        .popup {
+            position: fixed; inset: 0; background: rgba(0, 0, 0, 0.6); backdrop-filter: blur(8px);
+            display: none; align-items: center; justify-content: center; z-index: 9999; padding: 20px;
+        }
+        .popup.active { display: flex; }
+        .popup-box { background: var(--card-bg); width: 100%; max-width: 400px; border-radius: 24px; padding: 28px; animation: popIn 0.3s ease; }
+        @keyframes popIn { from { transform: scale(0.9) translateY(20px); opacity: 0; } to { transform: scale(1) translateY(0); opacity: 1; } }
+        .popup-box h3 { font-size: 20px; margin-bottom: 6px; }
+        .popup-box .sub { font-size: 13px; color: var(--text-secondary); margin-bottom: 16px; }
+        .popup-box input, .popup-box textarea {
+            width: 100%; padding: 14px; border-radius: 12px; border: 2px solid var(--border);
+            background: var(--bg); color: var(--text); font-size: 14px; margin-bottom: 12px;
+            transition: all var(--transition); outline: none;
+        }
+        .popup-box input:focus, .popup-box textarea:focus { border-color: var(--primary); box-shadow: 0 0 0 4px rgba(108, 60, 225, 0.1); }
+        .popup-box .btn-group { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .popup-box .btn-primary {
+            padding: 14px; border: none; border-radius: 12px; font-size: 14px; font-weight: 700; cursor: pointer;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: #fff; transition: all var(--transition);
+        }
+        .popup-box .btn-primary:hover { transform: scale(1.02); }
+        .popup-box .btn-secondary {
+            padding: 14px; border: 2px solid var(--border); border-radius: 12px; font-size: 14px; font-weight: 600;
+            cursor: pointer; background: transparent; color: var(--text); transition: all var(--transition);
+        }
+        .popup-box .btn-secondary:hover { background: var(--border); }
+        @media (max-width: 480px) {
+            .float-support { width: 48px; height: 48px; font-size: 20px; bottom: 16px; right: 16px; }
+        }
+
+
+        #page-services {
+            font-family: 'Inter', sans-serif;
+            background: #F8FAFC;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        [data-theme="dark"] #page-services { background: #0F172A; }
+        
+        #page-services .container { max-width: 600px; margin: 0 auto; }
+        
+        #page-services .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0 20px;
+        }
+        
+        #page-services .logo {
+            font-size: 22px;
+            font-weight: 900;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #6C3CE1;
+        }
+        #page-services .logo i { color: #6C3CE1; }
+        
+        #page-services .back-btn {
+            padding: 10px 20px;
+            border-radius: 12px;
+            border: 2px solid #E2E8F0;
+            background: #fff;
+            color: #0F172A;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+        #page-services .back-btn:hover { border-color: #6C3CE1; color: #6C3CE1; }
+        [data-theme="dark"] #page-services .back-btn {
+            background: #1E293B;
+            color: #F1F5F9;
+            border-color: #334155;
+        }
+        
+        #page-services .trust-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            background: #ECFEFF;
+            border: 1px solid #67E8F9;
+            padding: 12px;
+            border-radius: 14px;
+            margin-bottom: 16px;
+            font-size: 13px;
+            color: #065F46;
+        }
+        [data-theme="dark"] #page-services .trust-bar {
+            background: #064E3B;
+            border-color: #065F46;
+            color: #D1FAE5;
+        }
+        #page-services .trust-bar div { display: flex; align-items: center; gap: 6px; }
+        #page-services .trust-bar i { color: #10B981; }
+        
+        #page-services .top-actions {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+        #page-services .top-actions a, #page-services .top-actions button {
+            flex: 1;
+            padding: 12px;
+            border-radius: 12px;
+            border: none;
+            font-weight: 700;
+            font-size: 14px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        #page-services .top-actions a:hover, #page-services .top-actions button:hover { transform: scale(1.02); }
+        #page-services .btn-orders { background: #10B981; color: #fff; }
+        #page-services .btn-support { background: #6C3CE1; color: #fff; }
+        
+        #page-services .service-card {
+            background: #fff;
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 14px;
+            border: 1px solid #E2E8F0;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        [data-theme="dark"] #page-services .service-card {
+            background: #1E293B;
+            border-color: #334155;
+            color: #F1F5F9;
+        }
+        #page-services .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #6C3CE1, #8B5CF6);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        #page-services .service-card:hover::before { opacity: 1; }
+        #page-services .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(108, 60, 225, 0.1);
+            border-color: #6C3CE1;
+        }
+        
+        #page-services .service-card .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        #page-services .service-card h3 { font-size: 18px; font-weight: 700; }
+        #page-services .service-card .badge {
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        #page-services .badge.hot { background: #FEE2E2; color: #DC2626; }
+        #page-services .badge.popular { background: #FEF3C7; color: #D97706; }
+        #page-services .badge.premium { background: #EDE9FE; color: #6C3CE1; }
+        #page-services .badge.vip { background: #FCE7F3; color: #DB2777; }
+        [data-theme="dark"] #page-services .badge.hot { background: #7F1D1D; color: #FCA5A5; }
+        [data-theme="dark"] #page-services .badge.popular { background: #78350F; color: #FCD34D; }
+        [data-theme="dark"] #page-services .badge.premium { background: #312E81; color: #A78BFA; }
+        [data-theme="dark"] #page-services .badge.vip { background: #831843; color: #F9A8D4; }
+        
+        #page-services .service-card .price {
+            font-size: 28px;
+            font-weight: 800;
+            color: #6C3CE1;
+            margin-bottom: 8px;
+        }
+        [data-theme="dark"] #page-services .service-card .price { color: #8B5CF6; }
+        #page-services .service-card .price small { font-size: 14px; font-weight: 400; color: #64748B; }
+        [data-theme="dark"] #page-services .service-card .price small { color: #94A3B8; }
+        
+        #page-services .service-card .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 14px;
+        }
+        #page-services .service-card .features span {
+            font-size: 12px;
+            color: #64748B;
+            background: #F1F5F9;
+            padding: 4px 12px;
+            border-radius: 20px;
+            border: 1px solid #E2E8F0;
+        }
+        [data-theme="dark"] #page-services .service-card .features span {
+            color: #94A3B8;
+            background: #0F172A;
+            border-color: #334155;
+        }
+        #page-services .service-card .features span i { color: #10B981; margin-right: 4px; }
+        
+        #page-services .service-card .btn {
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 14px;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            background: linear-gradient(135deg, #6C3CE1, #4F46E5);
+            color: #fff;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        #page-services .service-card .btn:hover { transform: scale(1.02); box-shadow: 0 8px 24px rgba(108, 60, 225, 0.3); }
+        
+        #page-services .footer {
+            margin-top: 30px;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 12px;
+            color: #64748B;
+            border-top: 1px solid #E2E8F0;
+        }
+        [data-theme="dark"] #page-services .footer {
+            color: #94A3B8;
+            border-top-color: #334155;
+        }
+        
+        #page-services /* POPUP */
+        .popup {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.6);
+            backdrop-filter: blur(8px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            padding: 20px;
+        }
+        #page-services .popup.active { display: flex; }
+        
+        #page-services .popup-box {
+            background: #fff;
+            padding: 28px;
+            border-radius: 24px;
+            max-width: 400px;
+            width: 100%;
+            animation: popIn 0.3s ease;
+        }
+        [data-theme="dark"] #page-services .popup-box {
+            background: #1E293B;
+            color: #F1F5F9;
+        }
+        
+        @keyframes popIn {
+            from { transform: scale(0.9) translateY(20px); opacity: 0; }
+            to { transform: scale(1) translateY(0); opacity: 1; }
+        }
+        
+        #page-services .popup-box h3 { font-size: 20px; margin-bottom: 6px; }
+        #page-services .popup-box .sub { font-size: 13px; color: #64748B; margin-bottom: 16px; }
+        [data-theme="dark"] #page-services .popup-box .sub { color: #94A3B8; }
+        #page-services .popup-box .note {
+            font-size: 12px;
+            color: #10B981;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        #page-services .popup-box input, #page-services .popup-box textarea {
+            width: 100%;
+            padding: 14px;
+            border-radius: 12px;
+            border: 2px solid #E2E8F0;
+            font-size: 14px;
+            margin-bottom: 12px;
+            outline: none;
+            transition: all 0.3s ease;
+            background: #F8FAFC;
+        }
+        [data-theme="dark"] #page-services .popup-box input, [data-theme="dark"] #page-services .popup-box textarea {
+            background: #0F172A;
+            border-color: #334155;
+            color: #F1F5F9;
+        }
+        #page-services .popup-box input:focus, #page-services .popup-box textarea:focus {
+            border-color: #6C3CE1;
+            box-shadow: 0 0 0 4px rgba(108, 60, 225, 0.1);
+        }
+        
+        #page-services .btn-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        #page-services .btn-primary {
+            padding: 14px;
+            border: none;
+            border-radius: 12px;
+            font-weight: 700;
+            cursor: pointer;
+            background: linear-gradient(135deg, #6C3CE1, #4F46E5);
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+        #page-services .btn-primary:hover { transform: scale(1.02); }
+        #page-services .btn-secondary {
+            padding: 14px;
+            border: 2px solid #E2E8F0;
+            border-radius: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            background: transparent;
+            color: #0F172A;
+            transition: all 0.3s ease;
+        }
+        [data-theme="dark"] #page-services .btn-secondary {
+            border-color: #334155;
+            color: #F1F5F9;
+        }
+        #page-services .btn-secondary:hover { background: #E2E8F0; }
+        [data-theme="dark"] #page-services .btn-secondary:hover { background: #334155; }
+        
+        #page-services .float-support {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #6C3CE1, #4F46E5);
+            color: #fff;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 8px 32px rgba(108, 60, 225, 0.4);
+            transition: all 0.3s ease;
+            z-index: 100;
+        }
+        #page-services .float-support:hover { transform: scale(1.1) rotate(-10deg); }
+        
+        @media (max-width: 480px) {
+            #page-services .service-card { padding: 16px; }
+            #page-services .service-card .price { font-size: 24px; }
+            #page-services .header .logo { font-size: 18px; }
+            #page-services .back-btn { padding: 8px 14px; font-size: 12px; }
+        }
+    
+
+        #page-payment {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(180deg, #EEF2FF, #F8FAFC);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        [data-theme="dark"] #page-payment {
+            background: #0F172A;
+        }
+
+        #page-payment .container {
+            background: #fff;
+            padding: 28px;
+            max-width: 400px;
+            width: 100%;
+            border-radius: 24px;
+            box-shadow: 0 20px 60px rgba(108, 60, 225, 0.12);
+            border: 1px solid #E2E8F0;
+            transition: all 0.3s ease;
+        }
+        [data-theme="dark"] #page-payment .container {
+            background: #1E293B;
+            border-color: #334155;
+            color: #F1F5F9;
+        }
+
+        #page-payment .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        #page-payment .header h2 {
+            font-size: 22px;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #page-payment .header h2 i {
+            color: #6C3CE1;
+        }
+        #page-payment .secure-badge {
+            font-size: 12px;
+            color: #10B981;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        #page-payment .info-box {
+            background: #F1F5F9;
+            padding: 14px;
+            border-radius: 14px;
+            margin-bottom: 16px;
+            font-size: 14px;
+        }
+        [data-theme="dark"] #page-payment .info-box {
+            background: #0F172A;
+            color: #F1F5F9;
+        }
+        #page-payment .info-box div {
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 0;
+        }
+        #page-payment .info-box .label {
+            color: #64748B;
+        }
+        [data-theme="dark"] #page-payment .info-box .label {
+            color: #94A3B8;
+        }
+
+        #page-payment .amount {
+            text-align: center;
+            font-size: 36px;
+            font-weight: 900;
+            color: #6C3CE1;
+            margin: 12px 0;
+        }
+        [data-theme="dark"] #page-payment .amount {
+            color: #8B5CF6;
+        }
+        #page-payment .amount small {
+            font-size: 16px;
+            font-weight: 400;
+            color: #64748B;
+        }
+        [data-theme="dark"] #page-payment .amount small {
+            color: #94A3B8;
+        }
+
+        #page-payment .qr-wrapper {
+            background: #F8FAFC;
+            border-radius: 16px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 16px;
+            border: 2px dashed #E2E8F0;
+            position: relative;
+        }
+        [data-theme="dark"] #page-payment .qr-wrapper {
+            background: #0F172A;
+            border-color: #334155;
+        }
+        #page-payment #qrcode canvas {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        #page-payment /* download button inside QR wrapper */
+        .qr-download-btn {
+            margin-top: 12px;
+            background: #6C3CE1;
+            border: none;
+            border-radius: 30px;
+            padding: 8px 20px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 10px rgba(108, 60, 225, 0.25);
+        }
+        #page-payment .qr-download-btn:hover {
+            transform: scale(1.03);
+            background: #5a2fc7;
+        }
+        #page-payment .qr-download-btn i {
+            font-size: 14px;
+        }
+
+        #page-payment .upi-id {
+            text-align: center;
+            font-size: 13px;
+            color: #64748B;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        [data-theme="dark"] #page-payment .upi-id {
+            color: #94A3B8;
+        }
+        #page-payment .upi-id code {
+            background: #F1F5F9;
+            padding: 4px 12px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 14px;
+            color: #0F172A;
+        }
+        [data-theme="dark"] #page-payment .upi-id code {
+            background: #0F172A;
+            color: #F1F5F9;
+        }
+
+        #page-payment .input-group {
+            margin-bottom: 12px;
+        }
+        #page-payment .input-group label {
+            font-size: 13px;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 4px;
+        }
+        #page-payment .input-group input {
+            width: 100%;
+            padding: 14px;
+            border-radius: 12px;
+            border: 2px solid #E2E8F0;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            background: #F8FAFC;
+            outline: none;
+        }
+        [data-theme="dark"] #page-payment .input-group input {
+            background: #0F172A;
+            border-color: #334155;
+            color: #F1F5F9;
+        }
+        #page-payment .input-group input:focus {
+            border-color: #6C3CE1;
+            box-shadow: 0 0 0 4px rgba(108, 60, 225, 0.1);
+        }
+
+        #page-payment .btn-primary {
+            width: 100%;
+            padding: 16px;
+            border: none;
+            border-radius: 14px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            background: linear-gradient(135deg, #6C3CE1, #4F46E5);
+            color: #fff;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        #page-payment .btn-primary:hover:not(:disabled) {
+            transform: scale(1.02);
+            box-shadow: 0 8px 24px rgba(108, 60, 225, 0.3);
+        }
+        #page-payment .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        #page-payment .timer {
+            text-align: center;
+            font-size: 14px;
+            color: #64748B;
+            margin-top: 12px;
+        }
+        [data-theme="dark"] #page-payment .timer {
+            color: #94A3B8;
+        }
+        #page-payment .timer span {
+            font-weight: 700;
+            color: #EF4444;
+        }
+
+        #page-payment .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 16px;
+        }
+        #page-payment .footer-links a {
+            font-size: 13px;
+            color: #64748B;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        #page-payment .footer-links a:hover {
+            color: #6C3CE1;
+        }
+        [data-theme="dark"] #page-payment .footer-links a {
+            color: #94A3B8;
+        }
+        [data-theme="dark"] #page-payment .footer-links a:hover {
+            color: #8B5CF6;
+        }
+
+        #page-payment /* OVERLAYS */
+        .overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(8px);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            padding: 20px;
+        }
+        #page-payment .overlay.active {
+            display: flex;
+        }
+
+        #page-payment .overlay-box {
+            background: #fff;
+            padding: 32px;
+            border-radius: 24px;
+            max-width: 360px;
+            width: 100%;
+            text-align: center;
+            animation: popIn 0.3s ease;
+        }
+        [data-theme="dark"] #page-payment .overlay-box {
+            background: #1E293B;
+            color: #F1F5F9;
+        }
+
+        @keyframes popIn {
+            from {
+                transform: scale(0.9) translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1) translateY(0);
+                opacity: 1;
+            }
+        }
+
+        #page-payment .loader {
+            width: 48px;
+            height: 48px;
+            border: 4px solid #E2E8F0;
+            border-top: 4px solid #6C3CE1;
+            border-radius: 50%;
+            margin: 16px auto;
+            animation: spin 0.8s linear infinite;
+        }
+        [data-theme="dark"] #page-payment .loader {
+            border-color: #334155;
+            border-top-color: #8B5CF6;
+        }
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        #page-payment .success-icon {
+            font-size: 56px;
+            color: #10B981;
+            margin-bottom: 12px;
+        }
+        #page-payment .overlay-box h3 {
+            font-size: 22px;
+            margin-bottom: 8px;
+        }
+        #page-payment .overlay-box p {
+            color: #64748B;
+            font-size: 14px;
+        }
+        [data-theme="dark"] #page-payment .overlay-box p {
+            color: #94A3B8;
+        }
+        #page-payment .overlay-box .order-id {
+            background: #F1F5F9;
+            padding: 8px 16px;
+            border-radius: 10px;
+            font-family: monospace;
+            font-size: 16px;
+            font-weight: 700;
+            margin: 12px 0;
+            display: inline-block;
+        }
+        [data-theme="dark"] #page-payment .overlay-box .order-id {
+            background: #0F172A;
+            color: #F1F5F9;
+        }
+        #page-payment .overlay-box .btn-secondary {
+            margin-top: 16px;
+            padding: 12px 32px;
+            border: none;
+            border-radius: 12px;
+            font-weight: 700;
+            cursor: pointer;
+            background: #6C3CE1;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+        #page-payment .overlay-box .btn-secondary:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 480px) {
+            #page-payment .container {
+                padding: 20px;
+            }
+            #page-payment .amount {
+                font-size: 28px;
+            }
+            #page-payment .header h2 {
+                font-size: 18px;
+            }
+            #page-payment .qr-download-btn {
+                font-size: 12px;
+                padding: 6px 16px;
+            }
+        }
+    
+
+        #page-orders {
+            font-family: 'Inter', sans-serif;
+            background: #F8FAFC;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        [data-theme="dark"] #page-orders { background: #0F172A; }
+        
+        #page-orders .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        #page-orders .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0 20px;
+        }
+        
+        #page-orders .header h2 {
+            font-size: 24px;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        #page-orders .header h2 i { color: #6C3CE1; }
+        
+        #page-orders .back-btn {
+            padding: 10px 20px;
+            border-radius: 12px;
+            border: 2px solid #E2E8F0;
+            background: #fff;
+            color: #0F172A;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+        
+        #page-orders .back-btn:hover {
+            border-color: #6C3CE1;
+            color: #6C3CE1;
+            transform: translateX(-4px);
+        }
+        
+        [data-theme="dark"] #page-orders .back-btn {
+            background: #1E293B;
+            color: #F1F5F9;
+            border-color: #334155;
+        }
+        
+        #page-orders .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        #page-orders .stat-card {
+            background: #fff;
+            padding: 14px;
+            border-radius: 16px;
+            text-align: center;
+            border: 1px solid #E2E8F0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+        }
+        
+        [data-theme="dark"] #page-orders .stat-card {
+            background: #1E293B;
+            border-color: #334155;
+            color: #F1F5F9;
+        }
+        
+        #page-orders .stat-card .num {
+            font-size: 22px;
+            font-weight: 800;
+            color: #6C3CE1;
+            display: block;
+        }
+        
+        #page-orders .stat-card .lbl {
+            font-size: 11px;
+            color: #64748B;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        [data-theme="dark"] #page-orders .stat-card .lbl { color: #94A3B8; }
+        
+        #page-orders .order-card {
+            background: #fff;
+            border-radius: 18px;
+            padding: 16px;
+            margin-bottom: 12px;
+            border: 1px solid #E2E8F0;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+        }
+        
+        [data-theme="dark"] #page-orders .order-card {
+            background: #1E293B;
+            border-color: #334155;
+            color: #F1F5F9;
+        }
+        
+        #page-orders .order-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(108, 60, 225, 0.1);
+        }
+        
+        #page-orders .order-card .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        
+        #page-orders .order-card .order-id {
+            font-weight: 700;
+            font-size: 14px;
+            color: #6C3CE1;
+        }
+        
+        #page-orders .order-card .status {
+            font-weight: 600;
+            font-size: 13px;
+            padding: 4px 14px;
+            border-radius: 20px;
+        }
+        
+        #page-orders .order-card .status.approved {
+            background: #D1FAE5;
+            color: #065F46;
+        }
+        
+        #page-orders .order-card .status.pending {
+            background: #FEF3C7;
+            color: #92400E;
+        }
+        
+        #page-orders .order-card .status.refunded {
+            background: #FEE2E2;
+            color: #991B1B;
+        }
+        
+        [data-theme="dark"] #page-orders .order-card .status.approved {
+            background: #065F46;
+            color: #D1FAE5;
+        }
+        [data-theme="dark"] #page-orders .order-card .status.pending {
+            background: #92400E;
+            color: #FEF3C7;
+        }
+        [data-theme="dark"] #page-orders .order-card .status.refunded {
+            background: #991B1B;
+            color: #FEE2E2;
+        }
+        
+        #page-orders .order-card .details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4px;
+            font-size: 13px;
+            color: #64748B;
+            margin-top: 8px;
+        }
+        
+        [data-theme="dark"] #page-orders .order-card .details { color: #94A3B8; }
+        
+        #page-orders .order-card .details span { display: flex; align-items: center; gap: 6px; }
+        #page-orders .order-card .details i { color: #6C3CE1; width: 16px; }
+        
+        #page-orders .progress-bar {
+            height: 4px;
+            background: #E2E8F0;
+            border-radius: 4px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        
+        [data-theme="dark"] #page-orders .progress-bar { background: #334155; }
+        
+        #page-orders .progress-bar .fill {
+            height: 100%;
+            border-radius: 4px;
+            background: linear-gradient(90deg, #6C3CE1, #8B5CF6);
+            transition: width 0.5s ease;
+            width: 0%;
+        }
+        
+        #page-orders .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #64748B;
+        }
+        
+        #page-orders .empty-state i {
+            font-size: 48px;
+            color: #CBD5E1;
+            margin-bottom: 16px;
+            display: block;
+        }
+        
+        #page-orders .empty-state h3 { color: #0F172A; margin-bottom: 8px; }
+        [data-theme="dark"] #page-orders .empty-state h3 { color: #F1F5F9; }
+        
+        #page-orders .empty-state .btn {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 12px 28px;
+            border-radius: 12px;
+            background: #6C3CE1;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        #page-orders .empty-state .btn:hover { transform: scale(1.05); }
+        
+        @media (max-width: 480px) {
+            #page-orders .header h2 { font-size: 20px; }
+            #page-orders .back-btn { padding: 8px 14px; font-size: 12px; }
+            #page-orders .stats-bar { grid-template-columns: repeat(3, 1fr); gap: 6px; }
+            #page-orders .stat-card { padding: 10px; }
+            #page-orders .stat-card .num { font-size: 18px; }
+            #page-orders .order-card .details { grid-template-columns: 1fr; }
+        }
+    
+</style>
+</head>
+<body>
+<div id="page-home" class="page">
+
+
+<div class="container">
+    
+    <!-- HEADER -->
+    <div class="header">
+        <div class="logo">
+            <i class="fas fa-rocket"></i>
+            Grouth
+        </div>
+        <button class="theme-toggle" onclick="toggleTheme()" id="themeBtn">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+    
+    <!-- HERO BANNER -->
+    <div class="hero-banner" id="heroBanner" style="background: linear-gradient(135deg, rgb(108, 60, 225), rgb(79, 70, 229), rgb(124, 58, 237));">
+        <div class="badge">🔥 #1 Instagram Growth</div>
+        <h1>Grow Your <span>Instagram</span> Fast</h1>
+        <p>Real followers • No password • 100% safe</p>
+        <div class="stats-row">
+            <div>
+                <span class="num">50K+</span>
+                <span class="lbl">Users</span>
+            </div>
+            <div>
+                <span class="num">1M+</span>
+                <span class="lbl">Followers Delivered</span>
+            </div>
+            <div>
+                <span class="num">4.9★</span>
+                <span class="lbl">Rating</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ===== INPUT SECTION (UPAR) ===== -->
+    <div class="input-section">
+        <h3>🚀 Get Started</h3>
+        <div class="sub">Enter your Instagram username to begin</div>
+        <div class="input-group">
+            <input type="text" id="homeUsername" placeholder="Instagram Username" onkeydown="if(event.key==='Enter') goToServices()">
+            <button class="btn-go" onclick="goToServices()">
+                <i class="fas fa-arrow-right"></i> Go
+            </button>
+        </div>
+        <div class="features-row">
+            <span><i class="fas fa-check-circle"></i> No password needed</span>
+            <span><i class="fas fa-bolt"></i> Instant delivery</span>
+            <span><i class="fas fa-shield-alt"></i> 100% safe</span>
+        </div>
+    </div>
+    
+    <!-- ===== ADS SECTION (NEECHE) ===== -->
+    <div class="ads-section">
+        <div class="ad-card" onclick="showPage('page-services')">
+            <span class="icon">🚀</span>
+            <h4>Boost Now</h4>
+            <p>Get instant followers</p>
+            <span class="tag green">Popular</span>
+        </div>
+        <div class="ad-card" onclick="showPage('page-orders')">
+            <span class="icon">📦</span>
+            <h4>Track Orders</h4>
+            <p>Check your status</p>
+            <span class="tag blue">Live</span>
+        </div>
+        <div class="ad-card" onclick="openSupport()">
+            <span class="icon">💬</span>
+            <h4>24/7 Support</h4>
+            <p>We're here to help</p>
+            <span class="tag purple">Online</span>
+        </div>
+        <div class="ad-card" onclick="showPage('page-services')">
+            <span class="icon">🏷️</span>
+            <h4>Best Prices</h4>
+            <p>Starting at ₹80</p>
+            <span class="tag orange">Offer</span>
+        </div>
+    </div>
+    
+    <!-- FEATURED AD -->
+    <div class="featured-ad">
+        <div class="content">
+            <h4>🎯 20% OFF on 10k+ Followers</h4>
+            <p>Use code: GROUTH20 • Limited time</p>
+        </div>
+        <button class="btn-ad" onclick="showPage('page-services')">
+            Grab Deal →
+        </button>
+    </div>
+    
+    <!-- TRUST -->
+    <div class="trust">
+        <div><i class="fas fa-lock"></i> Secure Payment</div>
+        <div><i class="fas fa-bolt"></i> Fast Delivery</div>
+        <div><i class="fas fa-eye-slash"></i> No Password</div>
+        <div><i class="fas fa-headset"></i> 24/7 Support</div>
+    </div>
+    
+    <!-- REVIEW -->
+    <div id="reviewBox">
+        <div class="review">
+            <div class="avatar">N</div>
+            <div>
+                <h4>Neha <span>• 6 min ago</span></h4>
+                <div class="stars">★★★★★</div>
+                <p>Highly recommend! Real followers and amazing support.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <div class="footer">
+        © 2026 Grouth Followers • <a href="#">Privacy Policy</a> • <a href="#">Refund Policy</a><br>
+        Not affiliated with Instagram™
+    </div>
+    
+</div>
+
+
+</div>
+
+<div id="page-services" class="page">
+
+
+<div class="container">
+    <div class="header">
+        <div class="logo"><i class="fas fa-rocket"></i> Grouth</div>
+        <a href="#" onclick="showPage('page-home');return false;" class="back-btn"><i class="fas fa-arrow-left"></i> Back</a>
+    </div>
+    
+    <div class="trust-bar">
+        <div><i class="fas fa-lock"></i> SSL Secured</div>
+        <div><i class="fas fa-eye-slash"></i> No Password</div>
+        <div><i class="fas fa-bolt"></i> Fast Delivery</div>
+        <div><i class="fas fa-headset"></i> 24/7 Support</div>
+    </div>
+    
+    <div class="top-actions">
+        <a href="#" class="btn-orders" onclick="showPage('page-orders');renderOrders();return false;"><i class="fas fa-box"></i> My Orders</a>
+        <button class="btn-support" onclick="openSupport()"><i class="fas fa-headset"></i> Support</button>
+    </div>
+    
+    <div id="serviceList">
+        <div class="service-card">
+            <div class="top">
+                <h3>5k Followers</h3>
+                
+            </div>
+            <div class="price">₹80 <small>one-time</small></div>
+            <div class="features">
+                <span><i class="fas fa-check-circle"></i> Real Profiles</span><span><i class="fas fa-check-circle"></i> No Password</span><span><i class="fas fa-check-circle"></i> Refill Guarantee</span>
+            </div>
+            <button class="btn" onclick="openBuyPopup('5k Followers', 80)">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+            </button>
+        </div>
+    
+        <div class="service-card">
+            <div class="top">
+                <h3>10k Followers</h3>
+                <span class="badge hot">🔥 Hot</span>
+            </div>
+            <div class="price">₹160 <small>one-time</small></div>
+            <div class="features">
+                <span><i class="fas fa-check-circle"></i> Real Profiles</span><span><i class="fas fa-check-circle"></i> No Password</span><span><i class="fas fa-check-circle"></i> Refill Guarantee</span>
+            </div>
+            <button class="btn" onclick="openBuyPopup('10k Followers', 160)">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+            </button>
+        </div>
+    
+        <div class="service-card">
+            <div class="top">
+                <h3>20k Followers</h3>
+                <span class="badge popular">⭐ Popular</span>
+            </div>
+            <div class="price">₹220 <small>one-time</small></div>
+            <div class="features">
+                <span><i class="fas fa-check-circle"></i> Real Profiles</span><span><i class="fas fa-check-circle"></i> No Password</span><span><i class="fas fa-check-circle"></i> Refill Guarantee</span>
+            </div>
+            <button class="btn" onclick="openBuyPopup('20k Followers', 220)">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+            </button>
+        </div>
+    
+        <div class="service-card">
+            <div class="top">
+                <h3>30k Followers</h3>
+                
+            </div>
+            <div class="price">₹320 <small>one-time</small></div>
+            <div class="features">
+                <span><i class="fas fa-check-circle"></i> Real Profiles</span><span><i class="fas fa-check-circle"></i> No Password</span><span><i class="fas fa-check-circle"></i> Refill Guarantee</span>
+            </div>
+            <button class="btn" onclick="openBuyPopup('30k Followers', 320)">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+            </button>
+        </div>
+    
+        <div class="service-card">
+            <div class="top">
+                <h3>50k Followers</h3>
+                <span class="badge premium">💎 Premium</span>
+            </div>
+            <div class="price">₹420 <small>one-time</small></div>
+            <div class="features">
+                <span><i class="fas fa-check-circle"></i> Real Profiles</span><span><i class="fas fa-check-circle"></i> No Password</span><span><i class="fas fa-check-circle"></i> Refill Guarantee</span>
+            </div>
+            <button class="btn" onclick="openBuyPopup('50k Followers', 420)">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+            </button>
+        </div>
+    
+        <div class="service-card">
+            <div class="top">
+                <h3>100k Followers</h3>
+                <span class="badge vip">👑 VIP</span>
+            </div>
+            <div class="price">₹540 <small>one-time</small></div>
+            <div class="features">
+                <span><i class="fas fa-check-circle"></i> Real Profiles</span><span><i class="fas fa-check-circle"></i> No Password</span><span><i class="fas fa-check-circle"></i> Refill Guarantee</span>
+            </div>
+            <button class="btn" onclick="openBuyPopup('100k Followers', 540)">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+            </button>
+        </div>
+    
+        <div class="service-card">
+            <div class="top">
+                <h3>200k Followers</h3>
+                
+            </div>
+            <div class="price">₹900 <small>one-time</small></div>
+            <div class="features">
+                <span><i class="fas fa-check-circle"></i> Real Profiles</span><span><i class="fas fa-check-circle"></i> No Password</span><span><i class="fas fa-check-circle"></i> Refill Guarantee</span>
+            </div>
+            <button class="btn" onclick="openBuyPopup('200k Followers', 900)">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+            </button>
+        </div>
+    
+        <div class="service-card">
+            <div class="top">
+                <h3>300k Followers</h3>
+                <span class="badge vip">🏆 Elite</span>
+            </div>
+            <div class="price">₹1300 <small>one-time</small></div>
+            <div class="features">
+                <span><i class="fas fa-check-circle"></i> Real Profiles</span><span><i class="fas fa-check-circle"></i> No Password</span><span><i class="fas fa-check-circle"></i> Refill Guarantee</span>
+            </div>
+            <button class="btn" onclick="openBuyPopup('300k Followers', 1300)">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+            </button>
+        </div>
+    
+        <div class="service-card">
+            <div class="top">
+                <h3>500k Followers</h3>
+                
+            </div>
+            <div class="price">₹1500 <small>one-time</small></div>
+            <div class="features">
+                <span><i class="fas fa-check-circle"></i> Real Profiles</span><span><i class="fas fa-check-circle"></i> No Password</span><span><i class="fas fa-check-circle"></i> Refill Guarantee</span>
+            </div>
+            <button class="btn" onclick="openBuyPopup('500k Followers', 1500)">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+            </button>
+        </div>
+    
+        <div class="service-card">
+            <div class="top">
+                <h3>1M Followers</h3>
+                <span class="badge vip">✨ Ultimate</span>
+            </div>
+            <div class="price">₹3000 <small>one-time</small></div>
+            <div class="features">
+                <span><i class="fas fa-check-circle"></i> Real Profiles</span><span><i class="fas fa-check-circle"></i> No Password</span><span><i class="fas fa-check-circle"></i> Refill Guarantee</span>
+            </div>
+            <button class="btn" onclick="openBuyPopup('1M Followers', 3000)">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+            </button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        © 2026 Grouth Followers • <a href="#" style="color:#6C3CE1;text-decoration:none;">Privacy Policy</a> • <a href="#" style="color:#6C3CE1;text-decoration:none;">Refund Policy</a>
+    </div>
+</div>
+
+<!-- BUY POPUP -->
+<div class="popup" id="buyPopup">
+    <div class="popup-box">
+        <h3 id="popupTitle">Service</h3>
+        <div class="sub">Enter your Instagram username to continue</div>
+        <div class="note"><i class="fas fa-shield-alt"></i> We never ask for your password</div>
+        <input type="text" id="usernameInput" placeholder="Instagram Username" value="">
+        <div class="btn-group">
+            <button class="btn-primary" onclick="goPayment()"><i class="fas fa-arrow-right"></i> Continue</button>
+            <button class="btn-secondary" onclick="closeBuyPopup()">Cancel</button>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<div id="page-payment" class="page">
+
+
+    <div class="container" id="payPage">
+        <div class="header">
+            <h2><i class="fas fa-lock"></i> Payment</h2>
+            <span class="secure-badge"><i class="fas fa-shield-alt"></i> Secure</span>
+        </div>
+
+        <div class="info-box">
+            <div><span class="label">Service</span> <span id="serviceDisplay">5k Followers</span></div>
+            <div><span class="label">Username</span> <span id="usernameDisplay">Xxx</span></div>
+        </div>
+
+        <div class="amount">
+            ₹<span id="priceDisplay">80</span>
+            <small>one-time</small>
+        </div>
+
+        <!-- QR wrapper with download button -->
+        <div class="qr-wrapper">
+            <canvas id="qrcode" height="180" width="180" style="height: 180px; width: 180px;"></canvas>
+            <button class="qr-download-btn" id="downloadQrBtn">
+                <i class="fas fa-download"></i> Download QR
+            </button>
+        </div>
+
+        <div class="upi-id">
+            <i class="fas fa-qrcode"></i>
+            Pay to: <code id="upiDisplay">grouthfollowers@oksbi</code>
+        </div>
+
+        <div class="input-group">
+            <label><i class="fas fa-hashtag"></i> Transaction / UTR ID</label>
+            <input type="text" id="txnInput" placeholder="Enter UPI transaction ID" maxlength="16">
+        </div>
+
+        <button class="btn-primary" id="submitBtn" disabled="">
+            <i class="fas fa-check-circle"></i> Verify Payment
+        </button>
+
+        <div class="timer">
+            <i class="fas fa-hourglass-half"></i> Time remaining: <span id="timerDisplay">01:41</span>
+        </div>
+
+        <div class="footer-links">
+            <a href="#" onclick="showPage('page-orders');renderOrders();return false;"><i class="fas fa-box"></i> My Orders</a>
+            <a href="#" onclick="showPage('page-services');return false;"><i class="fas fa-arrow-left"></i> Back</a>
+        </div>
+    </div>
+
+    <!-- LOADING -->
+    <div class="overlay" id="loadingOverlay">
+        <div class="overlay-box">
+            <div class="loader"></div>
+            <h3>Checking Payment</h3>
+            <p>Please wait while we verify your transaction...</p>
+            <p style="font-weight:700;font-size:24px;color:#6C3CE1;" id="loadTimer">10</p>
+        </div>
+    </div>
+
+    <!-- SUCCESS -->
+    <div class="overlay" id="successOverlay">
+        <div class="overlay-box">
+            <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+            <h3>🎉 Payment Successful!</h3>
+            <p>Your order has been placed successfully.</p>
+            <div class="order-id" id="orderIdDisplay">FF000000</div>
+            <p style="font-size:12px;">Your followers will be delivered shortly</p>
+            <button class="btn-secondary" onclick="showPage('page-orders');renderOrders();">
+                <i class="fas fa-box"></i> View Orders
+            </button>
+        </div>
+    </div>
+
+    
+
+
+</div>
+
+<div id="page-orders" class="page">
+
+
+<div class="container">
+    <div class="header">
+        <h2><i class="fas fa-box"></i> My Orders</h2>
+        <a href="#" onclick="showPage('page-home');return false;" class="back-btn"><i class="fas fa-arrow-left"></i> Back</a>
+    </div>
+    
+    <div class="stats-bar">
+        <div class="stat-card">
+            <span class="num" id="totalOrders">1</span>
+            <span class="lbl">Total</span>
+        </div>
+        <div class="stat-card">
+            <span class="num" id="pendingOrders">1</span>
+            <span class="lbl">Pending</span>
+        </div>
+        <div class="stat-card">
+            <span class="num" id="completedOrders">0</span>
+            <span class="lbl">Completed</span>
+        </div>
+    </div>
+    
+    <div id="orderList">
+            <div class="order-card">
+                <div class="top">
+                    <span class="order-id"><i class="fas fa-hashtag"></i> FF271703</span>
+                    <span class="status pending">Pending ⏳</span>
+                </div>
+                <div class="details">
+                    <span><i class="fas fa-user"></i> Xxx</span>
+                    <span><i class="fas fa-tag"></i> 5k Followers</span>
+                    <span><i class="fas fa-rupee-sign"></i> ₹80</span>
+                    <span><i class="fas fa-clock"></i> 7/8/2026, 03:58:52</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="fill" style="width: 60%"></div>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+
+
+
+</div>
+
+<!-- SUPPORT POPUP -->
+<div class="popup" id="supportPopup">
+    <div class="popup-box">
+        <h3>💬 Support Center</h3>
+        <div class="sub">We'll respond within 5 minutes</div>
+        <input type="text" id="supportUser" placeholder="Instagram Username">
+        <textarea id="supportMsg" rows="4" placeholder="Describe your issue..."></textarea>
+        <div class="btn-group">
+            <button class="btn-primary" onclick="sendSupport()">Submit</button>
+            <button class="btn-secondary" onclick="closeSupport()">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<!-- FLOATING SUPPORT -->
+<button class="float-support" onclick="openSupport()">
+    <i class="fas fa-headset"></i>
+</button>
+<script>
+
+// ===== SPA ROUTER =====
+const PAGE_DISPLAY = {
+    'page-home': 'block',
+    'page-services': 'block',
+    'page-orders': 'block',
+    'page-payment': 'flex'
+};
+function showPage(id) {
+    Object.keys(PAGE_DISPLAY).forEach(pid => {
+        document.getElementById(pid).style.display = (pid === id) ? PAGE_DISPLAY[pid] : 'none';
+    });
+    window.scrollTo({ top: 0, behavior: 'instant' });
+}
+showPage('page-home');
+
+// ===== HOME =====
+
+// ===== THEME =====
+function toggleTheme() {
+    const html = document.documentElement;
+    const current = html.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    document.getElementById('themeBtn').innerHTML = next === 'dark' ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+}
+
+if (localStorage.getItem('theme') === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.getElementById('themeBtn').innerHTML = '<i class="fas fa-sun"></i>';
+}
+
+// ===== GO TO SERVICES =====
+function goToServices() {
+    const username = document.getElementById('homeUsername').value.trim();
+    if (!username) {
+        const input = document.getElementById('homeUsername');
+        input.style.borderColor = '#EF4444';
+        input.placeholder = '⚠️ Please enter username';
+        input.focus();
+        return;
+    }
+    localStorage.setItem('homeUsername', username);
+    showPage('page-services');
+}
+
+// ===== SUPPORT =====
+function openSupport() {
+    document.getElementById('supportPopup').classList.add('active');
+}
+
+function closeSupport() {
+    document.getElementById('supportPopup').classList.remove('active');
+}
+
+function sendSupport() {
+    const user = document.getElementById('supportUser').value.trim();
+    const msg = document.getElementById('supportMsg').value.trim();
+    if (!user || !msg) {
+        alert('Please fill all fields');
+        return;
+    }
+    alert('✅ Support request submitted! We\'ll respond shortly.');
+    closeSupport();
+    document.getElementById('supportUser').value = '';
+    document.getElementById('supportMsg').value = '';
+}
+
+// ===== REVIEWS =====
+const reviews = [
+    { name: "Rahul", text: "Best Instagram growth service! Got 5k followers in minutes 🔥", time: "2 min ago" },
+    { name: "Neha", text: "Highly recommend! Real followers and amazing support.", time: "6 min ago" },
+    { name: "Aman", text: "Affordable and fast. Will definitely order again!", time: "12 min ago" },
+    { name: "Priya", text: "No password required. Very safe and trustworthy.", time: "20 min ago" },
+    { name: "Rohit", text: "My reach improved significantly after using Grouth!", time: "30 min ago" },
+    { name: "Karan", text: "Quality is excellent. Real profiles only.", time: "45 min ago" },
+    { name: "Simran", text: "Best investment for my Instagram page. Love it!", time: "1 hour ago" },
+    { name: "Ankit", text: "Payment was seamless. Process started immediately.", time: "1 hour ago" }
+];
+
+let reviewIndex = 0;
+
+function showReview() {
+    const r = reviews[reviewIndex % reviews.length];
+    reviewIndex++;
+    document.getElementById('reviewBox').innerHTML = `
+        <div class="review">
+            <div class="avatar">${r.name[0]}</div>
+            <div>
+                <h4>${r.name} <span>• ${r.time}</span></h4>
+                <div class="stars">★★★★★</div>
+                <p>${r.text}</p>
+            </div>
+        </div>
+    `;
+}
+
+// ===== HERO BANNER COLORS =====
+const hero = document.getElementById('heroBanner');
+const heroColors = [
+    'linear-gradient(135deg, #6C3CE1, #4F46E5, #7C3AED)',
+    'linear-gradient(135deg, #10B981, #059669, #047857)',
+    'linear-gradient(135deg, #F59E0B, #D97706, #B45309)',
+    'linear-gradient(135deg, #EF4444, #DC2626, #B91C1C)',
+    'linear-gradient(135deg, #8B5CF6, #6D28D9, #4C1D95)'
+];
+let colorIdx = 0;
+setInterval(() => {
+    hero.style.background = heroColors[colorIdx % heroColors.length];
+    colorIdx++;
+}, 4000);
+
+// ===== INIT =====
+showReview();
+setInterval(showReview, 5000);
+
+// Close popup on backdrop click
+document.querySelectorAll('.popup').forEach(popup => {
+    popup.addEventListener('click', (e) => {
+        if (e.target === popup) popup.classList.remove('active');
+    });
+});
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeSupport();
+});
+
+// ===== SERVICES =====
+
+// ===== THEME =====
+if (localStorage.getItem('theme') === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+}
+
+// ===== SERVICES =====
+const services = [
+    { title: "5k Followers", price: 80, badge: null, features: ["Real Profiles", "No Password", "Refill Guarantee"] },
+    { title: "10k Followers", price: 160, badge: "🔥 Hot", features: ["Real Profiles", "No Password", "Refill Guarantee"] },
+    { title: "20k Followers", price: 220, badge: "⭐ Popular", features: ["Real Profiles", "No Password", "Refill Guarantee"] },
+    { title: "30k Followers", price: 320, badge: null, features: ["Real Profiles", "No Password", "Refill Guarantee"] },
+    { title: "50k Followers", price: 420, badge: "💎 Premium", features: ["Real Profiles", "No Password", "Refill Guarantee"] },
+    { title: "100k Followers", price: 540, badge: "👑 VIP", features: ["Real Profiles", "No Password", "Refill Guarantee"] },
+    { title: "200k Followers", price: 900, badge: null, features: ["Real Profiles", "No Password", "Refill Guarantee"] },
+    { title: "300k Followers", price: 1300, badge: "🏆 Elite", features: ["Real Profiles", "No Password", "Refill Guarantee"] },
+    { title: "500k Followers", price: 1500, badge: null, features: ["Real Profiles", "No Password", "Refill Guarantee"] },
+    { title: "1M Followers", price: 3000, badge: "✨ Ultimate", features: ["Real Profiles", "No Password", "Refill Guarantee"] }
+];
+
+const list = document.getElementById("serviceList");
+let currentService = null;
+
+// Home page se username lein agar stored hai toh
+const savedUsername = localStorage.getItem('homeUsername') || '';
+
+services.forEach(s => {
+    let badgeClass = "";
+    if (s.badge) {
+        if (s.badge.includes("🔥")) badgeClass = "hot";
+        else if (s.badge.includes("⭐")) badgeClass = "popular";
+        else if (s.badge.includes("💎")) badgeClass = "premium";
+        else if (s.badge.includes("👑") || s.badge.includes("✨") || s.badge.includes("🏆")) badgeClass = "vip";
+    }
+    
+    list.innerHTML += `
+        <div class="service-card">
+            <div class="top">
+                <h3>${s.title}</h3>
+                ${s.badge ? `<span class="badge ${badgeClass}">${s.badge}</span>` : ''}
+            </div>
+            <div class="price">₹${s.price} <small>one-time</small></div>
+            <div class="features">
+                ${s.features.map(f => `<span><i class="fas fa-check-circle"></i> ${f}</span>`).join('')}
+            </div>
+            <button class="btn" onclick="openBuyPopup('${s.title}', ${s.price})">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+            </button>
+        </div>
+    `;
+});
+
+// ===== BUY =====
+function openBuyPopup(title, price) {
+    currentService = { title, price };
+    document.getElementById("popupTitle").textContent = `${title} • ₹${price}`;
+    document.getElementById("buyPopup").classList.add("active");
+    
+    // Saved username auto fill
+    const saved = localStorage.getItem('homeUsername') || '';
+    document.getElementById("usernameInput").value = saved;
+    document.getElementById("usernameInput").focus();
+    document.getElementById("usernameInput").select();
+}
+
+function closeBuyPopup() {
+    document.getElementById("buyPopup").classList.remove("active");
+}
+
+function goPayment() {
+    const username = document.getElementById("usernameInput").value.trim();
+    if (!username) {
+        const input = document.getElementById("usernameInput");
+        input.style.borderColor = "#EF4444";
+        input.placeholder = "⚠️ Please enter username";
+        input.focus();
+        return;
+    }
+    document.getElementById("usernameInput").style.borderColor = "";
+    closeBuyPopup();
+    showPage('page-payment');
+    initPayment(currentService.title, currentService.price, username);
+}
+
+// ===== KEYBOARD =====
+document.getElementById("usernameInput").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") goPayment();
+});
+
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+        closeBuyPopup();
+        closeSupport();
+    }
+});
+
+// Close popups on backdrop click
+document.querySelectorAll(".popup").forEach(popup => {
+    popup.addEventListener("click", (e) => {
+        if (e.target === popup) popup.classList.remove("active");
+    });
+});
+
+// ===== PAYMENT =====
+
+        let paymentTimerInterval = null;
+let loadingTimerInterval = null;
+
+function initPayment(service, price, username) {
+
+            document.getElementById("serviceDisplay").textContent = service;
+            document.getElementById("usernameDisplay").textContent = username;
+            document.getElementById("priceDisplay").textContent = price;
+
+            // ===== THEME =====
+            if (localStorage.getItem('theme') === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+
+            // ===== QR CODE =====
+            const UPI_ID = "grouthfollowers@oksbi";
+            document.getElementById("upiDisplay").textContent = UPI_ID;
+
+            const upiString = `upi://pay?pa=${UPI_ID}&pn=Grouth%20Followers&am=${price}&cu=INR`;
+
+            // Generate QR
+            const qrCanvas = document.getElementById("qrcode");
+            QRCode.toCanvas(qrCanvas, upiString, { width: 180, margin: 2 }, function(error) {
+                if (error) console.error("QR Error:", error);
+            });
+
+            // ===== DOWNLOAD QR BUTTON =====
+            document.getElementById("downloadQrBtn").onclick = function() {
+                const canvas = document.getElementById("qrcode");
+                const link = document.createElement("a");
+                link.download = `QR-${service || 'payment'}.png`;
+                link.href = canvas.toDataURL("image/png");
+                link.click();
+            };
+
+            // ===== TXN INPUT =====
+            const txnInput = document.getElementById("txnInput");
+            const submitBtn = document.getElementById("submitBtn");
+
+            txnInput.oninput = () => {
+                txnInput.value = txnInput.value.replace(/[^a-zA-Z0-9]/g, "").toUpperCase();
+                submitBtn.disabled = txnInput.value.length < 8;
+            };
+
+            // ===== SUBMIT =====
+            submitBtn.onclick = () => {
+                document.getElementById("payPage").style.display = "none";
+                document.getElementById("loadingOverlay").classList.add("active");
+
+                let t = 10;
+                const timerEl = document.getElementById("loadTimer");
+                if (loadingTimerInterval) clearInterval(loadingTimerInterval);
+                loadingTimerInterval = setInterval(() => {
+                    timerEl.textContent = t--;
+                    if (t < 0) {
+                        clearInterval(loadingTimerInterval);
+                        document.getElementById("loadingOverlay").classList.remove("active");
+                        showSuccess();
+                    }
+                }, 1000);
+            };
+
+            // ===== SUCCESS =====
+            function showSuccess() {
+                const orderId = "FF" + String(Math.floor(Math.random() * 900000 + 100000));
+                document.getElementById("orderIdDisplay").textContent = orderId;
+                document.getElementById("successOverlay").classList.add("active");
+
+                // Save order
+                let orders = JSON.parse(localStorage.getItem("orders")) || [];
+                orders.push({
+                    orderId: orderId,
+                    username: username,
+                    service: service,
+                    price: price,
+                    status: "Pending ⏳",
+                    time: new Date().toLocaleString()
+                });
+                localStorage.setItem("orders", JSON.stringify(orders));
+
+                // Auto-approve after 20s
+                setTimeout(() => {
+                    let updated = JSON.parse(localStorage.getItem("orders"));
+                    updated = updated.map(o =>
+                        o.orderId === orderId ? { ...o, status: "Approved ✅" } : o
+                    );
+                    localStorage.setItem("orders", JSON.stringify(updated));
+                }, 20000);
+            }
+
+            // ===== TIMER =====
+            let time = 120;
+            const timerDisplay = document.getElementById("timerDisplay");
+            if (paymentTimerInterval) clearInterval(paymentTimerInterval);
+            paymentTimerInterval = setInterval(() => {
+                const m = String(Math.floor(time / 60)).padStart(2, '0');
+                const s = String(time % 60).padStart(2, '0');
+                timerDisplay.textContent = `${m}:${s}`;
+                if (time > 0) time--;
+            }, 1000);
+
+            // reset UI state for a fresh visit
+            document.getElementById("payPage").style.display = "";
+            document.getElementById("loadingOverlay").classList.remove("active");
+            document.getElementById("successOverlay").classList.remove("active");
+            txnInput.value = "";
+            submitBtn.disabled = true;
+
+            // ===== KEYBOARD =====
+            txnInput.onkeydown = (e) => {
+                if (e.key === "Enter" && !submitBtn.disabled) {
+                    submitBtn.click();
+                }
+            };
+        }
+// ===== ORDERS =====
+
+// ===== THEME =====
+if (localStorage.getItem('theme') === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+}
+
+// ===== RENDER =====
+function renderOrders() {
+    const orders = JSON.parse(localStorage.getItem('orders')) || [];
+    const list = document.getElementById('orderList');
+    
+    // Stats
+    document.getElementById('totalOrders').textContent = orders.length;
+    document.getElementById('pendingOrders').textContent = orders.filter(o => o.status.includes('Pending')).length;
+    document.getElementById('completedOrders').textContent = orders.filter(o => o.status.includes('Approved')).length;
+    
+    if (orders.length === 0) {
+        list.innerHTML = `
+            <div class="empty-state">
+                <i class="fas fa-inbox"></i>
+                <h3>No orders yet</h3>
+                <p>Start growing your Instagram today!</p>
+                <a href="#" class="btn" onclick="showPage('page-services');return false;"><i class="fas fa-rocket"></i> Get Followers</a>
+            </div>
+        `;
+        return;
+    }
+    
+    list.innerHTML = [...orders].reverse().map((o, idx) => {
+        const isApproved = o.status.includes('Approved');
+        const isPending = o.status.includes('Pending');
+        const progress = isApproved ? 100 : isPending ? 60 : 30;
+        const statusClass = isApproved ? 'approved' : isPending ? 'pending' : 'refunded';
+        
+        return `
+            <div class="order-card">
+                <div class="top">
+                    <span class="order-id"><i class="fas fa-hashtag"></i> ${o.orderId}</span>
+                    <span class="status ${statusClass}">${o.status}</span>
+                </div>
+                <div class="details">
+                    <span><i class="fas fa-user"></i> ${o.username || 'N/A'}</span>
+                    <span><i class="fas fa-tag"></i> ${o.service}</span>
+                    <span><i class="fas fa-rupee-sign"></i> ₹${o.price}</span>
+                    <span><i class="fas fa-clock"></i> ${o.time || 'Just now'}</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="fill" style="width: ${progress}%"></div>
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+// ===== AUTO REFRESH =====
+renderOrders();
+setInterval(renderOrders, 5000);
+
+// ===== KEYBOARD SHORTCUT =====
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        showPage('page-home');
+    }
+});
+
+</script>
+</body>
+</html>
